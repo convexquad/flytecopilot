@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/flyteorg/flytestdlib/logger"
-	"github.com/mitchellh/go-ps"
+	ps "github.com/mitchellh/go-ps"
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/util/sets"
 )
